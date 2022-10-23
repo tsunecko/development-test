@@ -14,8 +14,6 @@ https://reqres.in/api/users?page=1
 
 2/ Then for each user create a page that displays a random image from the random image host of your choice. 
 
-3/ Then attach as wallet to the page using wagmi https://wagmi.sh/
+3/ Then attach a wallet to the app using wagmi https://wagmi.sh/
 
 4/ Then make a PR to this repository with your changes
-
-:)
