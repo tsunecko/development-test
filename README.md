@@ -16,4 +16,4 @@ https://reqres.in/api/users?page=1
 
 3/ Then attach a wallet to the app using wagmi https://wagmi.sh/
 
-4/ Give us a link to your code
+4/ Give us a link to your repo
