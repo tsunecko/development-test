@@ -1,19 +1,22 @@
-# development-test
+## Description
 
-Instructions:
+React, Tailwind CSS, TypeScript, Wagmi
 
-Clone this repository and create a simple wallet connecting app using the following stack:
+## Installation
 
-- React
-- Tailwind
-- Wagmi
+```bash
+$ npm install
+```
 
-1/ Make a simple React application that lists the follwing users in a table:
+## Running the app
 
-https://reqres.in/api/users?page=1
+```bash
+# development
+$ npm start
+```
 
-2/ Then for each user create a page that displays a random image from the random image host of your choice. 
+## Checking errors
 
-3/ Then attach a wallet to the app using wagmi https://wagmi.sh/
-
-4/ Give us a link to your repo
+```bash
+$ npm run lint
+```
