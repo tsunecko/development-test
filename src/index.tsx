@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import { Root } from './components/routing/root';
-import { WagmiClient } from './views/Wagmi/WagmiClient';
+import { WagmiClient } from './pages/Wagmi/WagmiClient';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

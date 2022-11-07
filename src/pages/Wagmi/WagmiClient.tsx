@@ -3,6 +3,10 @@ import { WagmiConfig, createClient, chain } from 'wagmi';
 import { ConnectKitProvider, getDefaultClient } from 'connectkit';
 import { WagmiProfile } from './WagmiProfile';
 
+interface WagmiClientProps {
+  children: React.ReactNode;
+}
+
 const client = createClient(
   getDefaultClient({
     appName: 'ConnectKit CRA demo',
@@ -10,7 +14,7 @@ const client = createClient(
   }),
 );
 
-export const WagmiClient = ({ children }: { children: React.ReactNode }) => {
+export const WagmiClient: React.FC<WagmiClientProps> = ({ children }) => {
   return (
     <div className="bg-white flex flex-col justify-center place-items-center h-screen">
       {client && (

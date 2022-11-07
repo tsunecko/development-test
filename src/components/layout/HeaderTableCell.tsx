@@ -1,7 +1,10 @@
 import React from 'react';
-import { Text } from '../../types/text.type';
 
-export const HeaderTableCell = ({ text }: Text) => {
+export interface HeaderTableCellProps {
+  text: string;
+}
+
+export const HeaderTableCell: React.FC<HeaderTableCellProps> = ({ text }) => {
   return (
     <th scope="col" className="py-3 px-6">
       {text}

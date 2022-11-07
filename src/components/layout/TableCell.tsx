@@ -1,7 +1,11 @@
 import React from 'react';
-import { Cell } from '../../types/cell.type';
 
-export const TableCell = ({ text, avatar }: Cell) => {
+interface TableCellProps {
+  text: string | React.ReactElement;
+  avatar?: string;
+}
+
+export const TableCell: React.FC<TableCellProps> = ({ text, avatar }) => {
   return (
     <td
       scope="col"

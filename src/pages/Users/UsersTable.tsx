@@ -34,7 +34,7 @@ export const UsersTable = () => {
             <TableCell
               text={
                 <Link
-                  to={`/${user.id}`}
+                  to={`/users/${user.id}`}
                   className="font-medium text-blue-600 hover:underline"
                 >
                   View
